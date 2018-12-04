@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- start of form -->
+    <form action="post">
+
+    <h1>Online Survey</h1>
+
+        <label>Name:</label>
+            <br>
+        <input type="text" name="" required>
+
+            </p>
+
+        <label>Contact Details:</label>
+            <br>
+        <input type="text" name="" pattern="[0-9]" required>
+
+            </p>
+
+        <label>Gender:</label>
+            <br>
+                <select>
+                    <option value="Gender">Male</option>
+                    <option value="Gender">Female</option>
+                </select>
+
+            </p>
+
+        <label>D.O.B:</label>
+            </br>
+        <input type="date" name="" required>
+
+            </p>
+
+        <label>Email:</label>
+            <br>
+        <input type="email" name="" placeholder="Youremail@gmail.com" required>
+
+            </p>
+
+        <label>Password:</label>
+            <br>
+        <input type="password" name="" required>
+
+            </p>
+
+    <h3>Questions</h3>
+            <!-- start of questions which are optional -->
+
+        <label>How Often Do You Visit A Coffee Shop?</label>
+            <br>
+            <select name="">
+                <option value="">Everyday</option>
+                <option value="">Once A Week</option>
+                <option value="">Once A Month</option>
+            </select>
+
+         </p>
+
+        <label>What is your favorite coffee shop? Where is it located?</label>
+            <br>
+        <input type="text" name="">
+
+            </p>
+
+        <label>What do you typically order to drink?</label>
+            <br>
+        <input type="text" name="">
+
+            </p>
+
+        <label>What type of coffee shop do you prefer?</label>
+
+            </p>
+
+        <label>Large national coffee shop</label>
+        <input type="radio" name="coffee">
+
+            </p>
+
+        <label>National chain coffee shop</label>
+        <input type="radio" name="coffee">
+
+            </p>
+
+        <label>Small coffee shop </label>
+        <input type="radio" name="coffee">
+
+            </p>
+
+        <label>Privately owned coffee shop</label>
+        <input type="radio" name="coffee">
+
+            </p>
+            <hr> 
+
+        <label>Your Comments:</label>
+            <br>
+        <textarea name="Your Comments" id="" cols="30" rows="10"></textarea>
+
+            </p>
+            <!-- a reset button to reset -->
+        <input type="reset" value="Reset">
+
+            </p>
+
+        <button>Send Survey</button>
+            <!-- end of form -->
+    </form>
+
+</body>
+</html>

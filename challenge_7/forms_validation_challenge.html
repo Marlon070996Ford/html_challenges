@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registeration Form</title>
+</head>
+<body>
+    <!-- put form in the center -->
+    <center>
+    <h1>Registeration Form</h1>
+
+    <!-- beginning of form -->
+    <form action="">
+        <table>
+          <tbody>
+
+            <!-- user id input -->
+        <tr>
+            <td><label for="">User id:</label></td>
+            <td><input type="text" name="user id" id="" minlength="5" maxlength="12" required></td>
+        </tr>
+
+        </p>
+            <!-- password input -->
+        <tr>
+            <td><label for="">Password:</label></td>
+            <td><input type="password" name="password" id="" minlength="5" maxlength="12" required></td>
+        </tr>
+
+        </p>
+
+         <!-- name input -->
+        <tr>
+            <td><label for="">Name:</label></td>
+            <td><input type="text" name="name" id="" pattern="[a-zA-Z]+" required></td>
+        </tr>
+
+        </p>
+
+        <tr>
+            <!-- address input -->
+            <td><label for="">Address:</label></td>
+            <td><input type="text" name="address" id="" placeholder="Optional"></td>
+        </tr>
+
+        </p>
+
+           <!-- radio input -->
+            <tr> 
+               <td><label for="">Country:</label></td>
+               <td><select name="Country" required>
+                    <option value="">(please select country)</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="China">China</option>
+                    <option value="Israel">Israel</option>
+
+                </select required>
+                </td>
+            </tr>
+        </p>
+
+        <tr>
+            <!-- zip code input -->
+            <td><label for="">ZIP Code:</label></td>
+            <td><input type="number" name="Zip Code" id="" pattern[="[0-9]" required></td>
+        </tr>
+
+        </p>
+        <tr>
+            <!-- email input -->
+            <td><label for="">Email:</label></td>
+            <td><input type="email" name="" placeholder="youremail@gmail.com" required></td>
+        </tr>
+
+        </p>
+
+        <tr>
+            <td><label for="">Sex:</label></td>
+            <td>
+                <input type="radio" name="areyou" value=""required>Male 
+                <input type="radio" name="areyou" value="" required>Female
+            </td>
+            
+        </tr>
+
+        </p>
+
+        <tr>
+            <td><Label>Language</Label></td>
+            <td>
+                <input type="checkbox">English 
+                <input type="checkbox">Non-English
+            </td>
+        </tr>
+
+         </p>
+        <tr>
+            <td><label for="">About:</label></td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+
+         </p>
+
+        <tr>
+            <td></td>
+            <td><center><button>Submit</button></center></td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    </form>
+
+    </center>
+
+</body>
+</html>
